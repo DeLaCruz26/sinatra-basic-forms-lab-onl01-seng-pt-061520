@@ -7,10 +7,4 @@ class Puppy
         @breed = breed
         @age = age
     end
-
-    def age=(age)
-       puppy = Puppy.new(name, breed, age)
-       #puppy.age = 3
-       puppy
-    end
 end
